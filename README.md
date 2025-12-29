@@ -1,7 +1,7 @@
 # Build Your Code First AI Agent with Azure AI Foundry 🚀
 
 <p align="center">
-  <img src="images/imagine-cup-first-prize.jpg"
+  <img src="images/post 2.jpeg"
        alt="1st Prize at Microsoft Imagine Cup Pre-Workshop AI Agent Competition"
        width="650"/>
 </p>
