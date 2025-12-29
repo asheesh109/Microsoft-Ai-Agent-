@@ -1,61 +1,163 @@
-# Build your code-first agent with Azure AI Foundry
+# Build Your Code-First AI Agent with Azure AI Foundry 🚀
 
-This repository contains the content and sample code for the 75-minute workshop, "Build your code-first agent with Azure AI Foundry". You can try out this workshop using this repository. For information on how to deliver this workshop in a laboratory setting like [Microsoft AI Tour](https://aitour.microsoft.com/), please visit [this repository](https://github.com/microsoft/aitour-build-your-first-agent-with-azure-ai-agent-service).
+> **🏆 Imagine Cup Pre Workshop Competition Winner**
+> This repository was used during the **Microsoft Imagine Cup Pre Workshop event** held at the Microsoft Office. Among all participating teams, **this project secured 1st place**, winning the AI Agent challenge by a margin of **just 1 minute**, showcasing fast execution, clear agent design, and effective use of Azure AI Foundry.
 
-## Workshop Overview
+---
 
-Imagine you are a sales manager at Contoso, a multinational retail company that sells outdoor equipment. You need to analyze sales data to find trends, understand customer preferences, and make informed business decisions. To help you, Contoso has developed a conversational agent that can answer questions about your sales data.
+## 📌 Repository Overview
 
-### What you will learn
+This repository contains the code, configuration, and learning material used to build a **code first conversational AI agent** using **Azure AI Foundry Agent Service**. The agent is designed to analyze sales data and respond to natural language queries in a business context.
 
-By the end of this workshop, you will learn to build an agent app using Azure AI Foundry Agent Service, explore its tools, and effectively use instructions to guide the LLM.
+The project was initially provided as part of a **75 minute hands on workshop**, but it was extended, optimized, and executed competitively during the **Imagine Cup Pre Workshop AI Agent Competition**.
 
-## Workshop Guide
+---
 
-To get started with this workshop, open the [Build your code-first agent with Azure AI Foundry](https://aka.ms/agent-service-workshop-docs) workshop guide.
+## 🧠 Competition Context
 
-For information on modifying the workshop guide, see [docs/README.md](docs/README.md).
+* **Event**: Microsoft Imagine Cup  Pre Workshop AI Agent Challenge
+* **Venue**: Microsoft Office BKC Mumbai
+* **Challenge**: Build and demonstrate an AI agent within a limited time window using Azure AI Foundry
+* **Outcome**: 🥇 **Winner (Rank 1)**
+* **Winning Margin**: ⏱️ 1 minute
 
-## Prerequisites
+This solution stood out due to:
 
-To participate in this workshop you will need:
+* Clear agent instructions and task alignment
+* Efficient use of Azure AI Foundry Agent Service
+* Fast setup and successful end-to-end execution
+* Accurate and relevant conversational responses
 
-1. Access to an Azure subscription. If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/) before you begin.
-1. You need a GitHub account and GitHub Codespaces. If you don’t have a GitHub account, create one at [GitHub](https://github.com/join), and the free CodeSpaces benefit is sufficient to run this workshop.
-1. Sufficient Azure credits and quota to deploy the Azure resources required for the duration of this workshop. You should require less than USD$1.00 in consumption for a typical run-though of this workshop. Details are available in the "Solution Architecture" section of the Workshop Guide.
+---
 
-## Important Security Notice
+## 🏗️ Scenario Used
 
-This template, the application code and configuration it contains, has been built to showcase Microsoft Azure specific services and tools. We strongly advise our customers not to make this code part of their production environments without implementing or enabling additional security features.
+You are a **Sales Manager at Contoso**, a multinational retail company selling outdoor equipment. The AI agent helps you:
 
-For a more comprehensive list of best practices and security recommendations for Intelligent Applications, visit our [official documentation](https://learn.microsoft.com/azure/developer/ai/get-started-securing-your-ai-app).
+* Analyze sales data
+* Identify trends and seasonal patterns
+* Understand customer preferences
+* Support data-driven business decisions through conversation
 
-> [!WARNING]
->
-> **Some of the features used in this repository are in preview.** Preview versions are provided without a service level agreement, and they are not recommended for production workloads. Certain features might not be supported or might have constrained capabilities. For more information, see [Supplemental Terms of Use for Microsoft Azure Previews](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/).
+---
 
-**Sample application code is included in this project**. You can use or modify this app code or you can rip it out and include your own.
+## 🎯 What This Project Demonstrates
 
-## Contributing
+By exploring this repository, you will learn how to:
 
-We welcome your comments and suggestions about this workshop! Please report any problems you encounter, or suggestions for improvements, as issues in this repository.
+* Build a **code first AI agent** using Azure AI Foundry
+* Configure agent instructions to guide LLM behavior
+* Use built in tools for data querying and reasoning
+* Design conversational flows for enterprise scenarios
+* Rapidly prototype AI agents under time constraints (competition-ready)
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+---
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+## 📘 Workshop Guide
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+To follow the original workshop flow used as the base for this solution, refer to:
 
-## Trademarks
+🔗 **Build your code first agent with Azure AI Foundry**
+[https://aka.ms/agent-service-workshop-docs](https://aka.ms/agent-service-workshop-docs)
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
-trademarks or logos is subject to and must follow
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+For modifying or extending the workshop guide, see:
+
+📂 `docs/README.md`
+
+---
+
+## ✅ Prerequisites
+
+To run or extend this project, you need:
+
+1. **Azure Subscription**
+
+   * A free account is sufficient for experimentation
+   * [https://azure.microsoft.com/free/](https://azure.microsoft.com/free/)
+
+2. **GitHub Account + GitHub Codespaces**
+
+   * Free Codespaces tier is sufficient
+   * [https://github.com/join](https://github.com/join)
+
+3. **Minimal Azure Credits**
+
+   * Typical usage costs less than **$1 USD** per full run
+   * Refer to the *Solution Architecture* section in the workshop guide
+
+---
+
+## 🔐 Security Notice
+
+⚠️ **This project is for learning and demonstration purposes only.**
+
+* The code showcases Azure AI services and tools
+* It is **not production-hardened**
+* Do **not** deploy directly to production without:
+
+  * Authentication & authorization
+  * Secure secret management
+  * Network and data protection
+
+For best practices on securing AI applications:
+
+🔗 [https://learn.microsoft.com/azure/developer/ai/get-started-securing-your-ai-app](https://learn.microsoft.com/azure/developer/ai/get-started-securing-your-ai-app)
+
+---
+
+## 🧪 Preview Features Warning
+
+> **Some Azure AI Foundry features used here are in preview**
+
+* No SLA is provided
+* APIs and behaviors may change
+* Not recommended for production workloads
+
+More details:
+🔗 Supplemental Terms of Use for Microsoft Azure Previews
+
+---
+
+## 🤝 Contributing
+
+Contributions, improvements, and suggestions are welcome.
+
+* Report issues via GitHub Issues
+* Submit Pull Requests for enhancements
+
+### Contributor License Agreement (CLA)
+
+Most contributions require agreeing to a CLA:
+
+🔗 [https://cla.opensource.microsoft.com](https://cla.opensource.microsoft.com)
+
+A CLA bot will guide you during PR submission.
+
+---
+
+## 📜 Code of Conduct
+
+This project follows the **Microsoft Open Source Code of Conduct**.
+
+* Code of Conduct: [https://opensource.microsoft.com/codeofconduct/](https://opensource.microsoft.com/codeofconduct/)
+* FAQ: [https://opensource.microsoft.com/codeofconduct/faq/](https://opensource.microsoft.com/codeofconduct/faq/)
+* Contact: [opencode@microsoft.com](mailto:opencode@microsoft.com)
+
+---
+
+## ™️ Trademarks
+
+* Microsoft trademarks and logos must follow official guidelines
+* Modified versions must not imply Microsoft sponsorship
+
+🔗 [https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general)
+
+---
+
+## 🌟 Final Note
+
+This repository is not just a workshop artifact — it represents a **winning AI agent solution** built under real competition pressure at Microsoft.
+
+If you are preparing for **Imagine Cup**, hackathons, or AI agent challenges, this project serves as a strong reference for **speed, clarity, and correctness**.
+
+Happy building! 🚀
